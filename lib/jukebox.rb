@@ -47,7 +47,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run(songs)
   help
   user_input = ""
   until user_input == "exit"
