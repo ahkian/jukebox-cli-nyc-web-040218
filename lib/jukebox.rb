@@ -50,5 +50,8 @@ end
 def run 
   help
   puts "Please enter a command:"
+  user_input = gets.strip
+  until user_input == "exit"
   
+end
 end
